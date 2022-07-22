@@ -20,11 +20,12 @@ export const PomodoroClock = () => {
       // console.log(last)
       console.log(arr);
       arr.map(async (ele) => {
+        let  a = ele*60000;
         var myTimeList = setTimeout(() => {
           playAlert("purr");
           playAlert.volume(1);
           clearTimeout(myTimeList);
-        }, ele * 60000);
+        }, a );
       });
     }
   }, [isStart,cycle]);
