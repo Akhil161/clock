@@ -1,0 +1,13 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5f7;
+opacity: 0.5;
+background-image:  linear-gradient(30deg, #9a9eeb 12%, transparent 12.5%, transparent 87%, #9a9eeb 87.5%, #9a9eeb), linear-gradient(150deg, #9a9eeb 12%, transparent 12.5%, transparent 87%, #9a9eeb 87.5%, #9a9eeb), linear-gradient(30deg, #9a9eeb 12%, transparent 12.5%, transparent 87%, #9a9eeb 87.5%, #9a9eeb), linear-gradient(150deg, #9a9eeb 12%, transparent 12.5%, transparent 87%, #9a9eeb 87.5%, #9a9eeb), linear-gradient(60deg, #9a9eeb77 25%, transparent 25.5%, transparent 75%, #9a9eeb77 75%, #9a9eeb77), linear-gradient(60deg, #9a9eeb77 25%, transparent 25.5%, transparent 75%, #9a9eeb77 75%, #9a9eeb77);
+background-size: 28px 49px;
+background-position: 0 0, 0 0, 14px 25px, 14px 25px, 0 0, 14px 25px;
+
+}
