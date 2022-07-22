@@ -27,7 +27,7 @@ export const PomodoroClock = () => {
         }, ele * 60000);
       });
     }
-  }, [isStart]);
+  }, [isStart,cycle]);
 
   return (
     <div>
